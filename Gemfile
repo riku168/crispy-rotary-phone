@@ -5,8 +5,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "github-pages", "~> 202"
 
 group :noupdate do
-  gem "ffi", "= 1.12.1"
-  gem "nokogiri", "= 1.10.8"
+  gem "ffi", ">= 1.12.1"
+  gem "nokogiri", ">= 1.10.8"
 end
 
 group :jekyll_plugins do
